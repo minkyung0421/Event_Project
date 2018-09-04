@@ -1,0 +1,209 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>EVENT</title>
+<link rel="stylesheet" href="css.css">
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDL';
+}
+</style>
+</head>
+<body>
+<div style = "background-color: #151515; width: 100%; height: 800px; padding-top:5%;">
+	<div style = "font-size: 20pt; color:red; text-align: center;"><font style = "font-family: NANUMSQUAREROUNDB"><당신도 탐정이 될 수 있다 EVENT></font></div>
+	<div style = "color:white; text-align: center;"><font style="font-family: Calligraphy Personal Use; font-size: 15em;">You can be a detective</font></div>
+		<div style = "font-size: 15pt; color:white; margin-left:20%"><font style = "font-family: NANUMSQUAREROUNDL">추리 소설 탄생 <font color="red">177주년</font> 기념</font></div>
+		<br><br>
+	<div style = "font-size:18pt; color:white;  margin-left:28%; font-family:NANUMSQUAREROUNDB ">퀴즈를 풀고 히가시노 게이고 & 애거사 크리스티 & 아서 코난 도일 소설책을 받아가세요!</div>
+	<div style = "font-size:18pt; color:white;  margin-left:38%; font-family:NANUMSQUAREROUNDB ">선착순 20명에게 랜덤으로 책을 선물해 드립니다</div>
+	<div class="buttonContainer">
+ <a class="button" href="#" title="quiz">퀴즈 풀고 소설책 받으러 가기</a>
+</div>
+</div>
+
+
+
+
+<div style = "text-align: center; margin-top:5%; color:black; font-weight: 900"><h2>세계인이 좋아한 추리 소설 </h2></div>
+
+
+<!-- 여기서부터 책 정보 -->
+<div class="component">
+  <ul class="align">
+    <!-- Book 1 -->
+    <li style = "margin-left:2%">
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="http://mblogthumb1.phinf.naver.net/MjAxODAzMTlfMTk5/MDAxNTIxNDQ3NzQ3NjM2.WZShtX_uO_6JNCjy4xDTl9yvU6wH8278slTFLA-zaUcg.0Mm19c-3gQU2v65n9_Ye-rjnCH5XyFbuNSzHMRZffIwg.JPEG.hla9865/1452422-flyjoy77.jpg?type=w800" alt="" width="100%" height="100%">
+            <span class="ribbon bestseller"></span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="#">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>용의자 X의 헌신</h2>
+          <span style = "color:red">히가시노 게이고</span>
+          <p>From mobile browsers to netbooks and tablets, users are visiting your sites from an increasing array of devices and browsers. Are your designs ready?...</p>
+        </figcaption>
+      </figure>
+    </li>  
+    
+     <li style = "margin-left:2%">
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/7ur/image/jF5nkBVAa_RBbcVq0lpbcK3Nfvc.jpg" alt="" width="100%" height="100%">
+            <span class="ribbon bestseller"></span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="#">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>라플라스의 마녀</p></h2>
+          <span style = "color:red">히가시노 게이고</span>
+          <p>From mobile browsers to netbooks and tablets, users are visiting your sites from an increasing array of devices and browsers. Are your designs ready?...</p>
+        </figcaption>
+      </figure>
+    </li>  
+    
+    <!-- Book 2 -->
+    <li>
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://misc.ridibooks.com/cover/1153000080/xxlarge" alt="" width="100%" height="100%">
+            <span class="ribbon new">NEW</span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+             <a class="btn" href="#">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>셜록 홈즈 전집</h2>
+          <span style = "color:red">아서 코난 도일</span>
+          <p>Our industry’s long wait for the complete, strategic guide to mobile web design is finally over. Former Yahoo! design architect and co-creator of Bagcheck Luke Wroblewski knows more about mobile experience than the rest of us...</p>
+        </figcaption>
+      </figure>
+    </li>  
+    <!-- Book 3 -->
+    <li>
+      <figure class='book'>       
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://misc.ridibooks.com/cover/682000192/xxlarge" alt="" width="100%" height="100%">
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="#">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>애거서 크리스티 전집</h2>
+          <span style = "color:red">애거서 크리스티</span>
+          <p>The web is an ever-changing medium whose scope, application, audience and platform continue to grow on a daily basis. If you’ve worked on the web for any amount of time, you’ve likely heard or even used the term “progressive enhancement.”...</p>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>  
+</div>
+
+
+<div>
+
+	
+</div>
+
+
+
+
+</body>
+ <script language="javascript">
+  function showPopup() { window.open("quiz.jsp", "a", "width=750px, height=850px, left=100, top=50"); }
+  </script>
+</html>
