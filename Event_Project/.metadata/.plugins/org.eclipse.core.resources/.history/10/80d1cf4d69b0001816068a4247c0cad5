@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+
+body{
+	margin:7%;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDB';
+	color: white;
+}
+
+</style>
+<body>
+<center><div style = "font-family: Calligraphy Personal Use; font-size: 90pt; margin-top:5%">Appointment</div></center>
+
+<center><h1 style = "color:red">당신도 탐정이 될 수 있다 EVENT</h1>
+<div style = "color: white;">5문제 중에 3문제를 맞추면 탐정이 될 수 있는 기회가!<br>
+문제를 풀고 탐정 인증서를 얻어보세요!</div>
+<br><br>
+<hr color="red" style = "width: 50%">
+<br>
+<div style = "font-size: 20pt;">첫번째 문제</div>
+<br>
+<hr color="red" style = "width: 50%">
+<br>
+<br>
+</center>
+</body>
+</html>

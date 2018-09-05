@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<body>
+<center>
+		<br><br>
+		<hr color="black" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">첫번째 문제 해설</div>
+		<br>
+		<hr color="black" style = "width: 50%">
+		<br>
+		<br>
+		인형 = doll 피해자는 인형과 거울을 들고 있었다. 인형을 거울로 비추면 llob 즉, 1106호를 뜻한다.<br><br>
+		답은 3번이다.
+		<br><br>
+		<hr color="black" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">두번째 문제 해설</div>
+		<br>
+		<hr color="black" style = "width: 50%">
+		<br>
+		<br>
+		P&A를 P AND A라고 생각한다면 PANDA가 된다. 그러므로 범인은 판다 사육사인 4번 D이다.
+</center>
+</body>
+</html>

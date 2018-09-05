@@ -59,13 +59,12 @@ button:hover:before,button:hover:after{
 
 </style>
 </head>
-<style>
-</style>
+
 <body>
 <form action = "quiz_result.jsp" method="post" name = "Myform">
-<center><div style = "font-family: Calligraphy Personal Use; font-size: 90pt; margin-top:5%">detective test</div></center>
+<center><div style = "font-family: Calligraphy Personal Use; font-size: 90pt; margin-top:5%">Detective test</div></center>
 
-<center><h1 style = "color:red">당신도 탐정이 될 수 있다 EVENT</h1>
+<center><h1 style = "color:red">당신도 탐정이 될 수 있다 EVENT1</h1>
 <div style = "color: white;">아래의 두 개의 문제를 푼 후 정답을 맞추면 내 손안에 추리소설 책이! <br>
 더 어려운 문제를 풀고 탐정임명장을 얻어보세요!</div>
 <br><br>
@@ -115,17 +114,36 @@ P씨의 컴퓨터에는<br><br>
 	<label><input type = "radio" name = "quiz2" value = "4" style="width:20px;height:20px;"> Sheldon Wanda(41세, 여 / 청소부)임금문제로 1인 시위 중</label><br><br>
 	
 	
-	<button name = "button" style = "margin-left: 40%; margin-top:10%" onclick="goSubmit()">제출하기</button>
+	<button type = "button" name = "button" style = "margin-left: 40%; margin-top:10%" onClick="javascript:onSubmit();">제출하기</button>
 </form>
 
-</body>
-<script type="text/javascript">
-function goSubmit(){
-	document.getElementById('button').onclick = function(){
-		documnet.getElementById('Myform').submit();
-		return false;
-	}
-}
 
+</body>
+<script>
+	function onSubmit(){
+		var robj = document.getElementsByName("quiz1");
+		var robj2 = document.getElementsByName("quiz2");
+		var checknum1 = 0;
+		var checknum2 = 0;
+		var form = document.Myform;
+		
+		for(var i = 0; i <robj.length; i++){
+			if(robj[i].checked == true) checknum1++;
+		}
+		
+		for(var i = 0; i <robj2.length; i++){
+			if(robj2[i].checked == true) checknum2++;
+		}
+		
+		
+		if(checknum1 < 1 || checknum2 < 1){
+			alert("풀지 않은 문제가 있습니다!");
+			return;
+		}else{
+			form.submit();
+		}
+		
+		
+	}
 </script>
 </html>

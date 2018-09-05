@@ -1,0 +1,124 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDB';
+	background-color: #151515;
+	color: white;
+}
+button{
+  background:red;
+  color:#fff;
+  border:none;
+  position:relative;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  height:60px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:white;
+  color:#151515;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: red;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+</style>
+<body>
+<center><div style = "font-family: Calligraphy Personal Use; font-size: 90pt; margin-top:5%">Interpretation</div></center>
+<center>
+		<br><br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">첫번째 문제 해설</div>
+		<br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<br>
+		인형 = doll 피해자는 인형과 거울을 들고 있었다.<br><br> 인형을 거울로 비추면 llob 즉, 1106호를 뜻한다. 그러므로 답은 3번이다.
+		
+		<br><br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">두번째 문제 해설</div>
+		<br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<br>
+		P&A를 P AND A라고 생각한다면 PANDA가 된다. <br><br>그러므로 범인은 판다 사육사인 4번 D이다.
+
+		<br><br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">세번째 문제 해설</div>
+		<br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<br>
+		만일 '사과', '오렌지', '레몬' 순으로 놓인 상자에서 '사과' 상자를 열었는데 레몬이 있다고 가정하자.<br><br>
+		전제가 상표가 다르게 붙어 있다는 것이니 이를 고려하면 <br><br>1번만 상자를 열어도 모든 상자 속 과일을 맞출 수 있다.<br><br>
+		즉, '사과'에 레몬이 있다면 '오렌지'에는 사과, '레몬'에는 오렌지가 들어 있다는 뜻 <br><br>그러므로 답은 1번, 최소 1번이다.
+
+		<br><br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">네번째 문제 해설</div>
+		<br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<br>
+		정전이 일어난 시간에는 TV를 볼 수 없었다. <br><br>따라서 TV를 보고 있었다는 2번, 김희철의 알리바이는 성립되지 않는다.<br><br>
+		또한 S자는 8을 그리려다 중간에 연필이 부러진 것이라 추측할 수 있다.<br><br>
+		다잉 메시지를 쓰고 죽을 힘을 다해 연필을 부러트릴 이유가 없기 때문이다.<br><br> 그러므로 답은 2번 김희철이다.
+
+		<br><br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<div style = "font-size: 20pt;">다섯번째 문제 해설</div>
+		<br>
+		<hr color="red" style = "width: 50%">
+		<br>
+		<br>
+		빌라에서 사는 사람들은 서로 모르는 사람이 없을 정도로 다들 알고 지냈다고 했다.<br><br>
+		만약 할머니를 죽인 범인이 일면식이 있는 사람이었다면 몇백몇호에 산다고 말했거나,<br><br> 이름을 말했을 것이며,
+		단순히 '노랑 머리'라고 인상착의만 말하진 않았을 것이다.<br><br>
+		그러나 범인은 안면식이 없는 사람이었기 때문에 할머니는 눈에 띄었던 노랑 머리라는 점을 말한 것이다. <br><br>그러므로 답은 4번 민석영이다.
+</center>
+<button name = "button" onClick='window.close()' style = "margin-left:35%; margin-bottom:5%; margin-top:5%">돌아가기</button>
+</body>
+</html>

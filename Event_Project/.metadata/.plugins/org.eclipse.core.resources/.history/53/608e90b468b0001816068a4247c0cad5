@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+
+body{
+	margin:7%;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDB';
+	background-color: #151515;
+	color: white;
+}
+
+</style>
+<body>
+
+</body>
+</html>

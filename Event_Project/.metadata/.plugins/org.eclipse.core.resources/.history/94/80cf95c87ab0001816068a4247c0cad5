@@ -1,0 +1,228 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>EVENT</title>
+<link rel="stylesheet" href="css.css">
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDL';
+}
+</style>
+</head>
+<body>
+<div style = "background-color: #151515; width: 100%; height: 800px; padding-top:5%;">
+	<div style = "font-size: 20pt; color:red; text-align: center;"><font style = "font-family: NANUMSQUAREROUNDB"><당신도 탐정이 될 수 있다 EVENT></font></div>
+	<div style = "color:white; text-align: center;"><font style="font-family: Calligraphy Personal Use; font-size: 15em;">You can be a Detective</font></div>
+		<div style = "font-size: 15pt; color:white; margin-left:20%"><font style = "font-family: NANUMSQUAREROUNDL">추리 소설 탄생 <font color="red">177주년</font> 기념</font></div>
+		<br><br>
+	<div style = "font-size:18pt; color:white;  margin-left:28%; font-family:NANUMSQUAREROUNDB ">퀴즈를 풀고 히가시노 게이고 & 애거사 크리스티 & 아서 코난 도일 소설책을 받아가세요!</div>
+	<div style = "font-size:18pt; color:white;  margin-left:38%; font-family:NANUMSQUAREROUNDB ">선착순 20명에게 랜덤으로 책을 선물해 드립니다</div>
+	<div class="buttonContainer">
+ <a class="button" onclick="showPopup();" title="quiz">퀴즈 풀고 소설책 받으러 가기</a><br><br>
+  <a class="button" onclick="showPopup2();" title="Appointment">추리 문제 풀고 탐정 인증서 받으러 가기</a>
+</div>
+</div>
+
+<div style = "width: 100%; height: 30%;">
+<div style = "text-align: center; margin-top:5%; color:black; font-weight: 900"><h2>추리 소설의 역사 </h2></div>
+<center><div style = "font-family: NANUMSQUAREROUNDB">
+<br><br><br>
+19세기에는 문학이 상품화 되면서 문학 본래의 순수함에서 벗어나 대중의 기호에 영합하는 대중문학이 시작된 시대이다. <br><br>
+즉 소수를 위한 문학 대신에 다수를 위한 읽을거리라는 것이 성행되기 시작한 것이다. <br><br>
+순수문학의 쇠퇴는 동시에 대중문학의 발달을 의미하며, 또 하나의 문예부흥을 의미하는 것이 되었다. <br><br>
+이러한 시기인 1841년 미국에서 시인, 작가, 평론가이며 《그래함(Graham》의 편집장이던 에드가 앨런 포우가 범죄를 전문적으로 탐정하는 것을 줄거리로 하는 소설을 썼다. <br><br>
+이것이 인류 최초의 추리소설인 「모르그가의 살인사건」이다. <br><br>
+이것에 성공한 포우는 잇달아 「마리 로제의 수수께끼The Mystery of Marie Roget」(1842), 「황금벌레The Gold Bug」(1843), 「도난당한 편지The Purloined Letter」(1845)를 썼다.<br><br> 
+이 네 편의 소설은 추리소설의 고전으로서, '범죄가 있고, 탐정이 있고, 범인을 체포한다'는 추리소설의 기본구조를 정립시켰다.<br><br>
+</div>
+</center>
+</div>
+
+<div style = "text-align: center; margin-top:5%; color:black; font-weight: 900"><h2>세계인이 좋아한 추리 소설 </h2></div>
+
+
+<!-- 여기서부터 책 정보 -->
+<div class="component">
+  <ul class="align">
+    <!-- Book 1 -->
+    <li style = "margin-left:2%">
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="http://mblogthumb1.phinf.naver.net/MjAxODAzMTlfMTk5/MDAxNTIxNDQ3NzQ3NjM2.WZShtX_uO_6JNCjy4xDTl9yvU6wH8278slTFLA-zaUcg.0Mm19c-3gQU2v65n9_Ye-rjnCH5XyFbuNSzHMRZffIwg.JPEG.hla9865/1452422-flyjoy77.jpg?type=w800" alt="" width="100%" height="100%">
+            <span class="ribbon bestseller"></span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="https://namu.wiki/w/%EC%9A%A9%EC%9D%98%EC%9E%90%20X%EC%9D%98%20%ED%97%8C%EC%8B%A0">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>용의자 X의 헌신</h2>
+          <span style = "color:red">히가시노 게이고</span>
+          <p>평범한 수학교사인 이시가미는 옆집의 야스코를 짝사랑한다. 그녀가 전 남편에 시달린 나머지 그녀의 딸과 공조하여 남편을 죽였다는 사실을 알아차린 이시가미는 그녀의 범행사실을 은폐하는 것을 도와준다. 이시가미의 계획은 결점없어 보였지만 그의 예전 동창이자 호적수인 천재 물리학자 유가와에게 약점을 노출하게 되는데...</p>
+        </figcaption>
+      </figure>
+    </li>  
+    
+     <li style = "margin-left:2%">
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/7ur/image/jF5nkBVAa_RBbcVq0lpbcK3Nfvc.jpg" alt="" width="100%" height="100%">
+            <span class="ribbon bestseller"></span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="https://ko.wikipedia.org/wiki/%EB%9D%BC%ED%94%8C%EB%9D%BC%EC%8A%A4%EC%9D%98_%EB%A7%88%EB%85%80">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>라플라스의 마녀</p></h2>
+          <span style = "color:red">히가시노 게이고</span>
+          <p>외갓집에 갔다가 갑작스런 토네이도에 휩쓸려 엄마를 잃은 소녀 마도카. 그로부터 8년 후 한 지방의 온천지에서 '황화수소 가스 중독'으로 인해 60대의 영화 프로듀서가 사망하는 사건이 발생한다. 그러나 그 후, 앞서 발생한 사고와 같은 사건이 발생한다. 자문을 위해 찾은 두 번째 사건 장소에서 아오에  교수는  두 사건 현장에 나타난 그 소녀 마도카를 발견했다..</p>
+        </figcaption>
+      </figure>
+    </li>  
+    
+    <!-- Book 2 -->
+    <li>
+      <figure class='book'>        
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://misc.ridibooks.com/cover/1153000080/xxlarge" alt="" width="100%" height="100%">
+            <span class="ribbon new">NEW</span>
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+             <a class="btn" href="https://namu.wiki/w/%EC%85%9C%EB%A1%9D%20%ED%99%88%EC%A6%88%20%EC%8B%9C%EB%A6%AC%EC%A6%88">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>셜록 홈즈 전집</h2>
+          <span style = "color:red">아서 코난 도일</span>
+          <p>코난 도일이 저술한 셜록 홈즈를 주인공으로 하는 영국의 추리 소설 시리즈. 추리 소설이란 장르를 대중들에게 소개한 작품 중 하나이다. 셜록 홈즈 시리즈는 장편으로 주홍색 연구, 네 개의 서명, 바스커빌 가의 개, 공포의 계곡으로 이루어져 있으며 단편으로 셜록 홈즈의 모험, 회상록, 귀환,  마지막 인사, 사건집이 있다.</p>
+        </figcaption>
+      </figure>
+    </li>  
+    <!-- Book 3 -->
+    <li>
+      <figure class='book'>       
+        <!-- Front -->        
+        <ul class='hardcover_front'>
+          <li>
+            <img src="https://misc.ridibooks.com/cover/682000192/xxlarge" alt="" width="100%" height="100%">
+          </li>
+          <li></li>
+        </ul>        
+        <!-- Pages -->        
+        <ul class='page'>
+          <li></li>
+          <li>
+            <a class="btn" href="https://namu.wiki/w/%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%95%84%EB%AC%B4%EB%8F%84%20%EC%97%86%EC%97%88%EB%8B%A4">DETAIL</a>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>        
+        <!-- Back -->        
+        <ul class='hardcover_back'>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class='book_spine'>
+          <li></li>
+          <li></li>
+        </ul>
+        <figcaption>
+          <h2>애거서 크리스티:<br>그리고 아무도 없었다</h2>
+          <span style = "color:red">애거서 크리스티</span>
+          <p>지역 주민들이 '인디언 섬'이라고 부르는 작은 섬에 8명의 남녀가 초대된다. '얼릭 노먼 오언'이란 의문의 사람에게 초대받아 온 일행 앞에 얼릭 노먼 오언과 그 부인인 '유나 낸시 오언'은 없고 하인 부부만이 그들을 맞이하는데... 그리고 이 지방에 내려오는 인디언 인형 노래에 맞춰서 끔찍한 참극이 벌어진다. </p>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>  
+</div>
+
+
+<div>
+
+	
+</div>
+
+
+<center>
+<div style = "margin-bottom: 3%;">
+	3학년 5반 17번 최민경 &nbsp;
+	Copyrightⓒ2018 By aza923@e-mirim.hs.kr All right reserved. 
+</div>
+</center>
+
+</body>
+ <script language="javascript">
+  function showPopup() { window.open("quiz.jsp", "a", "width=750px, height=850px, left=100, top=50"); }
+  function showPopup2() { window.open("letter.jsp", "a", "width=750px, height=850px, left=100, top=50"); }
+  </script>
+</html>

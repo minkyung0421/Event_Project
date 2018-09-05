@@ -1,0 +1,68 @@
+
+9월 04, 2018 22:56:52.54 NEW SESSION
+9월 04, 2018 22:56:52.54 [14660:15696:0904/225652.192:ERROR:shader_disk_cache.cc(237)] Failed to create shader cache entry: -2
+9월 04, 2018 22:57:31.79 Unable to read VR Path Registry from C:\Users\parksodam\AppData\Local\openvr\openvrpaths.vrpath
+9월 05, 2018 24:30:23.06 [14660:2804:0905/003023.068:ERROR:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source:  (0)
+9월 05, 2018 24:53:00.11 [14660:15696:0905/005300.115:ERROR:connection_factory_impl.cc(403)] Failed to connect to MCS endpoint with error -105
+9월 05, 2018 24:53:02.89 [14660:15696:0905/005302.896:ERROR:connection_factory_impl.cc(403)] Failed to connect to MCS endpoint with error -106
+9월 05, 2018 24:54:10.44 [14660:2804:0905/005410.446:ERROR:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source:  (0)
+9월 05, 2018 01:26:50.67 [14660:2804:0905/012650.674:ERROR:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source:  (0)
+9월 05, 2018 01:38:39.28 [14660:2804:0905/013839.282:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+9월 05, 2018 01:38:39.60 [14660:2804:0905/013839.282:ERROR:in_progress_cache_impl.cc(175)] Cache is not initialized, cannot AddOrReplaceEntry.
+9월 05, 2018 01:38:39.62 [14660:2804:0905/013839.282:ERROR:in_progress_cache_impl.cc(191)] Cache is not initialized, cannot RetrieveEntry.
+9월 05, 2018 02:03:28.38 [14660:15696:0905/020328.384:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 02:03:28.57 [14660:15696:0905/020328.569:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 03:33:44.69 [14660:2804:0905/033344.690:ERROR:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source:  (0)
+9월 05, 2018 03:36:11.07 [14660:15696:0905/033611.074:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 03:36:11.40 [14660:15696:0905/033611.241:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:02:57.66 [14660:2804:0905/040257.660:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:02:59.49 [14660:2804:0905/040259.493:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:03:00.42 [14660:2804:0905/040300.425:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:03:02.25 [14660:2804:0905/040302.258:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:03:03.12 [14660:2804:0905/040303.127:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:14:08.12 [14660:2804:0905/041408.124:ERROR:CONSOLE(0)] "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2", source:  (0)
+9월 05, 2018 04:15:22.18 [14660:15696:0905/041521.573:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:22.19 [14660:15696:0905/041521.647:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:29.03 [14660:15696:0905/041529.036:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:29.35 [14660:15696:0905/041529.114:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:32.13 [14660:15696:0905/041532.130:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:32.21 [14660:15696:0905/041532.210:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:33.36 [14660:15696:0905/041533.367:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:33.44 [14660:15696:0905/041533.449:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:43.86 [14660:15696:0905/041543.868:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:43.94 [14660:15696:0905/041543.947:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:54.13 [14660:15696:0905/041554.137:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:54.17 [14660:15696:0905/041554.171:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:54.18 [14660:15696:0905/041554.178:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:54.22 [14660:15696:0905/041554.222:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:55.96 [14660:15696:0905/041555.968:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:15:56.04 [14660:15696:0905/041556.044:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:05.57 [14660:15696:0905/041605.574:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:05.58 [14660:15696:0905/041605.581:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:08.56 [14660:15696:0905/041608.560:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:08.63 [14660:15696:0905/041608.638:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:17.46 [14660:15696:0905/041617.469:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:17.55 [14660:15696:0905/041617.551:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:19.70 [14660:15696:0905/041619.708:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:19.78 [14660:15696:0905/041619.788:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:26.00 [14660:15696:0905/041626.007:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:26.08 [14660:15696:0905/041626.087:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:28.78 [14660:15696:0905/041628.784:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:28.87 [14660:15696:0905/041628.873:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:29.83 [14660:15696:0905/041629.838:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:29.92 [14660:15696:0905/041629.920:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:34.35 [14660:15696:0905/041634.356:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:34.44 [14660:15696:0905/041634.443:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:54.31 [14660:15696:0905/041654.318:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:16:54.39 [14660:15696:0905/041654.397:ERROR:ssl_client_socket_impl.cc(996)] handshake failed; returned -1, SSL error code 1, net_error -107
+9월 05, 2018 04:51:26.64 [14660:2804:0905/045126.644:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+9월 05, 2018 04:51:27.31 [14660:2804:0905/045126.663:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+9월 05, 2018 04:51:27.33 [14660:2804:0905/045126.667:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+9월 05, 2018 04:51:27.35 [14660:2804:0905/045126.702:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:51:27.49 [14660:2804:0905/045127.493:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:51:27.58 [14660:2804:0905/045127.581:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:51:27.60 [14660:2804:0905/045127.595:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 04:51:27.63 [14660:2804:0905/045127.604:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 103 is too big.
+9월 05, 2018 04:51:30.64 [14660:2804:0905/045130.469:ERROR:latency_info.cc(163)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+9월 05, 2018 05:24:17.18 
+9월 05, 2018 05:24:17.20 KLIB_SelfTest return : KLR_OK

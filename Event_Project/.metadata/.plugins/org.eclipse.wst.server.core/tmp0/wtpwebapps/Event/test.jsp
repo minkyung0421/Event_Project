@@ -928,8 +928,29 @@ figcaption p {
 	}
 }
 
+body {background-color: lightsteelblue;
+  background-image: url("https://data.whicdn.com/images/245762463/original.gif");}
+#thumb {float: right}
+h1 {font-size:50px;
+text-align: center;
+ font-family: "Courier New", Courier, monospace;
+color: magenta}
+#intro {font-size:30px;
+text-align:justify;}
+#yes {font-size: 25px;
+color: rgb(0,0,200)}
+.steps {color: purple;
+font-size: 20px;
+text-align:justify;}
+#monk {float:right;}
+#PS {font-size:20px}
+
 </style>
 <body>
+
+
+<button>Download</button>
+
 <div class="component">
   <ul class="align">
     <!-- Book 1 -->

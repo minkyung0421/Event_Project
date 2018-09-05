@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDB';
+	background-image: url("https://data.whicdn.com/images/245762463/original.gif");
+}
+</style>
+<body>
+<%
+	request.setCharacterEncoding("UTF-8");
+
+	String l_quiz1 = request.getParameter("l_quiz1");
+	String l_quiz2 = request.getParameter("l_quiz2");
+	String l_quiz3 = request.getParameter("l_quiz3");
+	String l_quiz4 = request.getParameter("l_quiz4");
+	String l_quiz5 = request.getParameter("l_quiz5");
+	
+	int right = 0;
+	
+	if(l_quiz1.equals("3")){
+		right++;
+	}
+	
+	if(l_quiz2.equals("4")){
+		right++;
+	}
+	
+	if(l_quiz3.equals("1")){
+		right++;
+	}
+	
+	if(l_quiz4.equals("2")){
+		right++;
+	}
+	
+	if(l_quiz5.equals("4")){
+		right++;
+	}
+	
+	if(right >= 3){%>
+		<center><h1 style = "margin-top:5%;">축하합니다! 탐정 테스트에 통과하셨습니다!</h1>
+		당신을 탐정으로 임명합니다!
+		</center>
+		
+	<%}
+	
+%>
+</body>
+</html>

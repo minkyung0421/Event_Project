@@ -1,0 +1,88 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+@import "compass";
+*,*::after, *::before{
+  box-sizing: border-box;
+}
+
+$c : #28F2B3;
+html{
+  background: #333;
+}
+
+button{
+  width: 250px;
+  height: 70px;
+  margin: auto;
+  position: fixed;
+  left: 0;right: 0;top: 0;bottom: 0;
+  font-size: 22px;
+  border: 3px solid $c;
+  color: $c;
+  line-height:64px;
+  background: none;
+  white-space: nowrap;
+  overflow: hidden;
+  @include box-shadow(0 0 5px #222);
+  @include border-radius(70px);
+  @include animation(over 6s infinite);
+  outline:none;
+  
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: $c;
+    @include animation(load 6s infinite);
+  }
+  
+  &:after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    @include rotate(45deg);
+    box-shadow:3px 3px #333, 6px 6px $c;
+    right: 45px;
+    top: 18px;
+    @include animation(dwd 6s infinite);
+  }
+  
+  
+}
+
+@include keyframes(over){
+  0% , 20%{line-height: 64px; width: 250px;}
+  25%, 100%{line-height: 150px; border-color: $c;}
+  30%, 100%{width: 70px; border-color: #444;}
+}
+@include keyframes(load){
+  0% , 40%{height: 0;}
+  90%, 100%{height: 100%;}
+}
+@include keyframes(dwd){
+  0% , 20%{ right: 45px; top:18px}
+  30% , 100%{ right: 25px;}
+  30%, 40%, 50%, 60%,70%,80% {top: 14px;}
+  35%, 45%, 55%, 65%,75%,85%{top: 22px;}
+  54%{  color: $c;  box-shadow:3px 3px #333, 6px 6px $c; }
+  55% , 85%{ color: #333;  box-shadow:3px 3px $c, 6px 6px #333; border-width: 3px; height: 15px;}
+  90%, 100%{box-shadow:1px 1px #333; border-width:5px; height: 25px; color: #fff; }
+}
+</style>
+<body>
+<button>Download</button>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EVENT</title>
+</head>
+<style>
+@font-face{
+	font-family: 'Calligraphy Personal Use'; src:url('font/Calligraphy Personal Use.ttf');
+}
+@font-face{font-family:'NANUMSQUAREROUNDL'; src:url('font/NANUMSQUAREROUNDL.TTF')}
+@font-face{font-family:'NANUMSQUAREROUNDB'; src:url('font/NANUMSQUAREROUNDB.TTF')}
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'NANUMSQUAREROUNDB';
+	background-image: url("https://data.whicdn.com/images/245762463/original.gif");
+}
+
+button{
+  background:red;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:white;
+  color:#151515;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: red;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+</style>
+<body>
+<%
+	request.setCharacterEncoding("UTF-8");
+
+	String l_quiz1 = request.getParameter("l_quiz1");
+	String l_quiz2 = request.getParameter("l_quiz2");
+	String l_quiz3 = request.getParameter("l_quiz3");
+	String l_quiz4 = request.getParameter("l_quiz4");
+	String l_quiz5 = request.getParameter("l_quiz5");
+	
+	int right = 0;
+	
+	if(l_quiz1.equals("3")){
+		right++;
+	}
+	
+	if(l_quiz2.equals("4")){
+		right++;
+	}
+	
+	if(l_quiz3.equals("1")){
+		right++;
+	}
+	
+	if(l_quiz4.equals("2")){
+		right++;
+	}
+	
+	if(l_quiz5.equals("4")){
+		right++;
+	}
+	
+	if(right >= 3){%>
+		<center><h1 style = "margin-top:10%;">축하합니다! 탐정 테스트에 통과하셨습니다!</h1>
+		<h3>당신을 탐정으로 임명합니다!</h3><br><br>
+		<h3>아래에서 임명장을 다운받으세요!</h3>
+		<a href="img/det.jpg" download="탐정 임명장"><button name = "button">임명장 다운로드</button></a>
+		<img src="img/det.jpg" width="400px" height="350px"/>
+		</center>
+		
+	<%}
+	
+%>
+</body>
+</html>
